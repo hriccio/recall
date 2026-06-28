@@ -31,3 +31,5 @@ This is a hriccio AI-assisted repository.
 - Avoid adding own infrastructure, monitoring, databases, or server runtimes unless the repository purpose requires them.
 - Use `hr capability show mcp-usage` for MCP guidance; default allowed MCPs are `chrome-devtools` and `codex-usage`.
 - Preserve durable project decisions in Markdown when scope changes.
+- After making code or content changes, commit the change before stopping unless the user explicitly says not to.
+- Treat this repository rule as persistent context for future sessions.
